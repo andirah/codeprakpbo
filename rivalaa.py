@@ -1,14 +1,14 @@
 class Bangun_Ruang:
-    __vendor_message = "Segitiga"
+    __vendor_message = "Segitiga" #public
     name    ="" #deklarasi variabel
     alas    =""
     tinggi  =""
     luas    =""
 
-    def __init__(self, name):
+    def __init__(self, name): #method constructor
         self.name = name
 
-    def get_vendor_message(self):
+    def get_vendor_message(self): #method biasa
         print(self.__vendor_message)
 
     def set_alas(self, alas):
